@@ -2,6 +2,12 @@
 
 Simple Flask app that scrapes the first page of [Books to Scrape](https://books.toscrape.com/) and displays book titles, prices, stock status, images, and links.
 
+## Project Tasks
+
+1. Build a simple web scraping app with Flask.
+2. Read a CSV file and generate a trend graph.
+3. Create a blog series folder with a 3-part index and the first draft post.
+
 ## Run
 
 ```bash
@@ -26,3 +32,10 @@ To use another CSV or output path:
 ```bash
 python3 plot_trend.py --input data/sample_trend.csv --output output/trend.svg
 ```
+
+## Blog Series
+
+The blog planning files are in `blog-series/`.
+
+- `blog-series/index.md`: 3-part series outline
+- `blog-series/post1.md`: draft for part 1
